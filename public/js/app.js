@@ -21,7 +21,7 @@ weatherForm.addEventListener('submit',(e)=>{
             }
             else{
                 messageOne.textContent = data.location
-                messageTwo.textContent ='Current Temperature is '+ data.forecast.currentTemperature + ' degrees Feelslike '+data.forecast.feelslike +' degrees'
+                messageTwo.textContent ='Current Temperature is '+ data.forecast.currentTemperature + ' degrees. It Feelslike '+data.forecast.feelslike +' degrees. Humidity is '+data.forecast.humidity
             }
         
         })

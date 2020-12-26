@@ -12,7 +12,8 @@ const forecast = (x,y,callback) =>{
         else{
             const data ={
                 currentTemperature : body.current.temperature,
-                feelslike : body.current.feelslike
+                feelslike : body.current.feelslike,
+                humidity : body.current.humidity
             }
             callback(undefined,data)
         }
